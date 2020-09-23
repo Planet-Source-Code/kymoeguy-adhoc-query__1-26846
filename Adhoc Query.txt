@@ -1,0 +1,27 @@
+Thanks to Collin McAllister's submission on 7/13/1999, I liked his interface
+for a simple user input/selection!!
+
+I have added a couple of things, you can have up to 10 criteria selections
+when querying a single table (I have not tested this on multiple tables).
+
+I have also added simple joins for up to 3 tables, I have played with the
+criteria on a limited basis when doing the joins, but I hope someone will
+find this interesting if not useful in some way.
+
+You have to select a database first (Access 97, Jet 3.51 version).
+Select a table by dragging the table name to the Selected listbox or
+to select up to 3 tables, click the multiple checkbox before dragging
+the table name and drag as many table names as indicated with the
+inputbox (up to 3)
+
+If you selected more than one table, a dialog with appear to perform
+the join in a visual manner.  Choose the two tables (if you have more than 2)
+and select the field in each listbox to join, click the "Add Join" button.
+
+Once you are back to the Query form, click on the selected tables to 
+populate the field listbox.  Drag the desired fields to the next listbox
+and they will appear n the criteria listbox.
+
+Doubleclick the items in the criteria listbox to add conditions to the query.
+
+I know this is rough, but it might be OK for a limited use such as mine.
